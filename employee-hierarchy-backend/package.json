@@ -1,0 +1,26 @@
+{
+  "name": "employee-hierarchy-backend",
+  "version": "1.0.0",
+  "description": "Backend for Coding Challenge technical assessment",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^2.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
